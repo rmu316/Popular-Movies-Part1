@@ -87,7 +87,7 @@ public class PosterFragment extends Fragment {
     public class FetchMovieInfoTask extends AsyncTask<String, Void, String[]> {
         private final String LOG_TAG = FetchMovieInfoTask.class.getSimpleName();
         private String BASE_URL = "http://api.themoviedb.org/3/movie/";
-        private final String APP_ID = "3f86fa8fe74139faf77b6349c144fcdc";
+        // Please see README.md for what to add here!
         private final String API_KEY = "api_key";
 
         protected String[] doInBackground(String ...params) {
